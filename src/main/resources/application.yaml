@@ -9,9 +9,9 @@ spring:
       mail:
         smtp:
           auth: true
-  boot:
-    admin:
-      notify:
-        mail:
-          to: ["2978925842@qq.com"]
-          from: 2978925842@qq.com
+#  boot:
+#    admin:
+#      notify:
+#        mail:
+#          to: ["2978925842@qq.com"]
+#          from: 2978925842@qq.com
