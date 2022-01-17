@@ -1,0 +1,17 @@
+server:
+  port: 9000
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 2978925842@qq.com
+    password: kpdwgtxuvyzcdfae
+    properties:
+      mail:
+        smtp:
+          auth: true
+  boot:
+    admin:
+      notify:
+        mail:
+          to: ["2978925842@qq.com"]
+          from: 2978925842@qq.com
